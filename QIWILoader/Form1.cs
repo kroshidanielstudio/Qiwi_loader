@@ -25,7 +25,7 @@ namespace QIWILoader
         private string _lastLaunchedShellDirectory; // Для хранения пути к последней запущенной оболочке
         public delegate void LogDelegate(string message, LogType type);
         private UtilityClass _utilityHelper;
-        private readonly string versionsUrl = "http://k90052gj.beget.tech/API/versions.json";
+        private readonly string versionsUrl = "YOUR_JSON_ON_SERVER";
         private readonly string currentVersion = "1.0.0";
 
         public Form1()
@@ -643,4 +643,5 @@ namespace QIWILoader
             shellAddForm.ShowDialog();
         }
     }
+
 }
